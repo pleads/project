@@ -5,7 +5,7 @@
 //document.getElementById('login').addEventListener('submit', function(e){
   //e.preventDefault();// prevent page from refreshing
 
-  //const username = document.getElementById('Username').value;
+  //const username = document.getElementById('email').value;
 
   //if (Username) {
    // alert(`Welcome, ${Username}! You have successfully signed in.`);
@@ -37,8 +37,6 @@ setTimeout(() => {
   popup.style.display = 'none'; // Hide after 5 seconds
 }, 5000);
   
-
-
 });
 
 
@@ -97,3 +95,8 @@ function checkPasswordStrength() {
   }
 
 }
+
+
+const a = 233
+const b = 100
+const c = a % b

@@ -2,3 +2,233 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+ 
+
+    
+  }
+
+.body{
+    position: relative;
+    justify-content: center;
+    background: linear-gradient( rgba(15, 16, 16, 0.8), rgb(18, 16, 16)), 
+                url(/image/wall.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    height: 95vh;
+    width: 30%;
+    top: 100px;
+    border-radius: 15px;
+    left: 400px;
+}
+.header{
+    position: relative;
+    padding: 10px 10px;
+
+    border-radius: 5px;
+    top: 10px;
+}
+.time{
+    float: left;
+    color: #f7f6f6;
+}
+.paper-plan{
+    top: 3px;
+    position: relative;
+    left: 4px;
+}
+.network{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.fa-battery-three-quarters{
+    color: #fff;
+    float: right;
+    bottom: 6px;
+
+}
+.net{
+    float: right;
+    right: 7px;
+    color: #fff;
+    position: relative;
+}
+.fa-signal{
+    float: right;
+    right: 5px;
+    color: #ffff;
+    position: relative;
+}
+.logo{
+    justify-content: center;
+    padding: 10px;
+    background: transparent;
+    top: 90px;
+    position: relative;
+
+}
+.logo img{
+    width: 70px;
+    border-radius: 50px;
+    background: transparent;
+}
+.text {
+    color: #ffff;
+    font-weight: bold;
+
+}
+.link{
+    position: relative;
+    top:100px;
+    display: block;
+    text-align: center;
+    height: 50vh;
+
+
+}
+a.sign{
+   word-spacing: 3px;
+    border-radius: 25px;
+    background: #42e042;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    font-size: 12px;
+    width: 300px;
+    font-weight: bold;
+    left: 50px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    align-items: center;
+    
+    
+}
+ a.number {
+    color: #ffff;
+    border-radius: 25px;
+    border: 1px solid #555252;
+    padding: 15px;
+    top: 10px;
+    width: 300px;
+    left: 50px;
+    position: relative;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobile{
+    color: #fff;
+    position: relative;
+    float: left;
+    font-size: 18px;
+    bottom: 3px;
+}
+
+a.facebook{
+    color: #ffff;
+    top: 10px;
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid #555252;
+    padding: 15px;
+    width: 300px;
+    left: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.face{
+    color: #ffffff;
+    position: relative;
+    float: left;
+    bottom: 5px;
+    font-size: 25px;
+    background: transparent;
+    
+}
+a.apple{
+    color: #fff;
+    top: 16px;
+    position: relative;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #555252;
+    padding: 15px;
+    width: 300px;
+    left: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mac{
+    font-size: 1.5em;
+    float: left;
+   
+    position: relative;
+    bottom:4px ;
+
+}
+
+
+
+a.google  {
+    color: #ffff;
+    border-radius: 25px;
+    border: 1px solid #555252;
+    padding: 10px;
+    top: 15px;
+    position: relative;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    width: 300px;
+    left: 50px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.ggg{
+    width: 30px;
+    position: relative;
+    float: left;
+   
+    bottom: 7px;
+    background: transparent;
+}
+.login{
+    position: relative;
+    top: 15px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.line{
+    position: relative;
+    top: 120px;
+    display: block;
+    justify-content: center;
+}
+.line hr{
+    width: 150px;
+    position: relative;
+    font-weight: bold;
+    height: 5px;
+    background: linear-gradient(to right, #f7f6f6, #fffffe);
+    border: 1px solid ;border-radius: 5px;
+}
+
+
